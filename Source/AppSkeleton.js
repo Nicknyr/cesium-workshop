@@ -5,13 +5,13 @@
     // Creating the Viewer
     //////////////////////////////////////////////////////////////////////////
 
-    // var viewer = new Cesium.Viewer('cesiumContainer');
-    //
-    // var viewer = new Cesium.Viewer('cesiumContainer', {
-    //     scene3DOnly: true,
-    //     selectionIndicator: false,
-    //     baseLayerPicker: false
-    // });
+     var viewer = new Cesium.Viewer('cesiumContainer');
+
+     var viewer = new Cesium.Viewer('cesiumContainer', {
+         scene3DOnly: true,
+         selectionIndicator: false,
+         baseLayerPicker: false
+     });
 
     //////////////////////////////////////////////////////////////////////////
     // Loading Imagery
@@ -337,4 +337,3 @@
     // });
 
 }());
-
